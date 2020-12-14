@@ -1,0 +1,101 @@
+{
+  "main": {
+    "id": "60be3a61d7e24dbf",
+    "type": "split",
+    "children": [
+      {
+        "id": "dc8370f84dcbd183",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Holiday Hack 2020/Splunk.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0cc9f7ede4be5c97",
+    "type": "split",
+    "children": [
+      {
+        "id": "e44e03331505ecca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2e9dc4e3f9a063da",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b2155c9895487fe1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "e3ddeb311f8b00c1",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d28c8139ae04449",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68d3cb1357cb6acc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Holiday Hack 2020/Splunk.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Holiday Hack 2020/Untitled.md",
+    "Holiday Hack 2020/HID card hacking.md",
+    "Holiday Hack 2020/README.md",
+    "Holiday Hack 2020/S3 Buckets.md",
+    "Phd/Universities for PhD.md",
+    "Untitled.md",
+    "Active Learning/CTU-13 Stream.md",
+    "Active Learning/kitsune.md",
+    "CTU-13 Stream.md",
+    "Pwn College/Fundamentals.md"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "main": {
+    "id": "0eb72fcb09777a7b",
+    "type": "split",
+    "children": [
+      {
+        "id": "970982060ca76cc6",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Untitled.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8361b8f6dc1ef23a",
+    "type": "split",
+    "children": [
+      {
+        "id": "6450393f8ce328e7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19930b5701d7dda6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b04cf55799bfdb35",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b44cb43f9b09e6a5",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a28eb7de68b89de",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "422ae5ccb07c211f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Untitled.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Untitled.md",
+    "Day1/Bypassing Endpoint Security.md",
+    "Day2/Rita Lab.md",
+    "Day2/Untitled.md"
+  ]
+}

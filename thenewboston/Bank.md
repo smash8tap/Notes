@@ -1,0 +1,8 @@
+ - Users Connect to it
+ - Users choose their own banks (one with lowest rate)
+ - Users send transaction to the bank
+ - Banks are their so that end users dont need their own servers
+ - Sends notification to the end user
+ - Other job is to choose a [[Primary Validator]]
+ - Banks Listen for the results from [[Confirmation Validator]]
+ - 

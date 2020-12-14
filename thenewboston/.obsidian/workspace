@@ -1,0 +1,86 @@
+{
+  "main": {
+    "id": "887b4fe658b36af9",
+    "type": "split",
+    "children": [
+      {
+        "id": "6713e2baec69ad48",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Potential Targets.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c9cb914ecfb0e368",
+    "type": "split",
+    "children": [
+      {
+        "id": "43ced46be4108c86",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8ac02a0af5c1cb3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "37c9146e55356af2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ed198684c01d96d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "81226e7de61826be",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d62ce00575826d17",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Potential Targets.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Potential Targets.md",
+    "Bank.md",
+    "Confirmation Validator.md",
+    "Primary Validator.md",
+    "Untitled.md",
+    "Message Signing.md"
+  ]
+}

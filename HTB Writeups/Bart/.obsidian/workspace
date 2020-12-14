@@ -1,0 +1,87 @@
+{
+  "main": {
+    "id": "e50c1199b918607b",
+    "type": "split",
+    "children": [
+      {
+        "id": "bbd53886575f40c3",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Readme.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5d9c9191bfd83fee",
+    "type": "split",
+    "children": [
+      {
+        "id": "c45dbe17e1e461b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "40e3e81a7fb96637",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1b8df53ad34bb132",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a28246a6b27b960e",
+    "type": "split",
+    "children": [
+      {
+        "id": "d4a101b0f2b79718",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bedd873a6495c613",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Readme.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Readme.md",
+    "Pasted image 20201118202132.png",
+    "Pasted image 20201118200917.png",
+    "Pasted image 20201118200535.png",
+    "Pasted image 20201118125633.png",
+    "Pasted image 20201118125518.png",
+    "Pasted image 20201118125457.png"
+  ]
+}

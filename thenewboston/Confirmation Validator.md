@@ -1,0 +1,2 @@
+- Constantly check PVs results and reports the results back to the [[Bank]] and bank notifies any mishiefs to user
+-   Double checks [[Primary Validator]] and builds a block chain themselves

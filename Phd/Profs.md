@@ -1,0 +1,3 @@
+- Christopher Kruegel (https://sites.cs.ucsb.edu/~chris/index.html)
+- Yan Shoshitaishvili (https://www.yancomm.net/)
+- Antonio Bianchi (https://antoniobianchi.me/)
