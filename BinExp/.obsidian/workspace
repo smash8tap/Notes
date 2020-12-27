@@ -1,0 +1,90 @@
+{
+  "main": {
+    "id": "cfe76f44507d4b7d",
+    "type": "split",
+    "children": [
+      {
+        "id": "c04899c7797d2e27",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Stack Overflow with shellcode.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f0870d5723979b6b",
+    "type": "split",
+    "children": [
+      {
+        "id": "275c2caddca213d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7cddac5e7e20b91e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "87a0d2f1027a8ede",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c4f9266d62be8135",
+    "type": "split",
+    "children": [
+      {
+        "id": "69f3fcc2811db134",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55e8b83e3ad0fd6a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Stack Overflow with shellcode.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Stack Overflow with shellcode.md",
+    "Pasted image 20201113202623.png",
+    "Pasted image 20201113202205.png",
+    "Pasted image 20201113202232.png",
+    "Pasted image 20201111184858.png",
+    "Pasted image 20201113202207.png",
+    "Untitled.md",
+    "Basic of Memory Corruption.md",
+    "Basic Memory.md",
+    "Pasted image 20201111184754.png"
+  ]
+}
