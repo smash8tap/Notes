@@ -1,4 +1,4 @@
-# Tryhackme: Ninja Skills
+# Tryhackme: [Ninja Skills](https://tryhackme.com/room/ninjaskills)
 
 This is a basic linux room which tests your bash skills. Lets start by sshing into the machine.
 `ssh new-user@10.10.118.172`
