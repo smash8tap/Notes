@@ -1,12 +1,14 @@
 ## Combination of categorical and numerical data
+
 - Alternative is to use generalized additive models (GAM's)
--  Distance metrics that can be used:
-	- Levenshtien distance (or any form of "edit distance")
+- Distance metrics that can be used:
 
-	- Longest common subsequence metric
+  - Levenshtien distance (or any form of "edit distance")
 
-	- Gower distance
-	- cosine distance
+  - Longest common subsequence metric
+
+  - Gower distance
+  - cosine distance
 
 ## To do's
 
@@ -14,20 +16,18 @@
 - Have a minimum number of botnet labels in the initial learning set **done**
 - Maybe we have to sort the initial training set according to time
 - Convert the test data into the distinc classes fo labels and then test the accuracy on each of the class
-
+- **Try to segregate the data into time windows**
+- **Look at the data from a particular time window and perform (pool based?) active learning on those netflows**
 
 ## Conclusions Drawn
 
 - Dont use a ratio to manually split the data
 - Going sequentially (temporally) is not a good idea when we are extracting first 100 botnet, 1000 normal, 10000 bg data points. because when we start training the AL model it will just have Backgorund data
-- Choosing data points with highest entropy is  better then Randomly choosing data points for query (because the amount of bg data is much more) 
-
+- Choosing data points with highest entropy is better then Randomly choosing data points for query (because the amount of bg data is much more)
 
 ## QUestions
 
 - Is it a good idea to make test and pool split?
-
-
 
 ## Scenario 1
 
