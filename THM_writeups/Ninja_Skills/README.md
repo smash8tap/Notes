@@ -1,12 +1,12 @@
 # Tryhackme: Ninja Skills
 
-This is basic linux room which tests your bash skills. Lets start by sshing into the machine.
+This is a basic linux room which tests your bash skills. Lets start by sshing into the machine.
 `ssh new-user@10.10.118.172`
 ![](./images/2021-02-05_13-50.png)
-If we list the home directory we just find an empty folder named `files`. In the question we are given a bunch of files which are placed somewhere in the file system.
-So first let's start with locating these files.
+If we list out our home directory we just find an empty folder named `files`. In the question we are given a bunch of file names which are placed somewhere in the file system.
+So first let's start by locating these files.
 
-## Locating filename in the file system
+## Locating filenames in the file system
 
 - Lets store all the file names in a file. I have used vim to write all file names in a file called `files.txt`
   ![](./images/2021-02-05_13-58.png)
@@ -20,7 +20,7 @@ So first let's start with locating these files.
 > `/` : start looking in root(/) and its subdirctories
 > `name`: find the file with the name $i
 
-Along with redirecting any error while reading the file we are also redirecting the standard output `>>` the output to `file_loc.txt`
+Along with redirecting any error while reading the file we are also redirecting the standard output `>>` to `file_loc.txt`
 
 ## Question 1
 
@@ -29,7 +29,7 @@ We have to find the files which are owned by `best-group` group
 ![](./images/2021-02-05_14-25.png)
 
 > Command Breakdown
-> We run a while loop where we are reading from standard input (Linux `read` command reads in from standard input), and we are providing the `file_loc.txt` as input to read command `< file_loc.txt` (`<` means standard input)
+> We run a while loop where we are reading from standard input (Linux `read` command reads in from standard input), and we are providing the `file_loc.txt` as an input to the read command `< file_loc.txt` (`<` means standard input)
 > After that we are performing a `ls -l` on each of those files and grepping for the group "best-group"
 > Ans: D8B3 v2Vb
 
@@ -44,7 +44,7 @@ Now we have find the file which contains an ip address
 > grep: Linux grep command to grab a string matching a certain expression
 > `-H`: Give the file name for the matches found
 > `-P`: User Perl regex( You can also use -e for normal regex )
-> `Regexp`: (\d+\.) matches any string with any amount of numbers followed by a dot
+> `Regexp`: (\d+\\.) matches any string with any amount of numbers followed by a dot
 
 Ans: oiMO
 
