@@ -3,16 +3,21 @@
 This is a basic linux room which tests your bash skills. Lets start by sshing into the machine.
 `ssh new-user@10.10.118.172`
 ![](./images/2021-02-05_13-50.png)
+
 If we list out our home directory we just find an empty folder named `files`. In the question we are given a bunch of file names which are placed somewhere in the file system.
 So first let's start by locating these files.
 
 ## Locating filenames in the file system
 
-- Lets store all the file names in a file. I have used vim to write all file names in a file called `files.txt`
-  ![](./images/2021-02-05_13-58.png)
-- Now lets use `find` command to get the exact path of these files and store them in another file
-  `for i in $(cat files.txt); do find / -name $i >> file_loc.txt 2> /dev/null; done`
-  ![](./images/2021-02-05_14-02.png)
+- Lets store all the names from the question to a file called `files.txt`
+
+![](./images/2021-02-05_13-58.png)
+
+- Now lets use the `find` command to get the exact path of these files and store them in another file
+
+`for i in $(cat files.txt); do find / -name $i >> file_loc.txt 2> /dev/null; done`
+
+![](./images/2021-02-05_14-02.png)
 
 > Command Breakdown:
 > We start with a bash for loop which loops over all the names in `files.txt` and stores those names in variable `i`. So for each name in `files.txt` we run a find command to get the exact location of that file.
@@ -25,7 +30,9 @@ Along with redirecting any error while reading the file we are also redirecting 
 ## Question 1
 
 We have to find the files which are owned by `best-group` group
+
 `while read filename; do ls -l $filename | grep best-group; done < file_loc.txt`
+
 ![](./images/2021-02-05_14-25.png)
 
 > Command Breakdown
@@ -35,8 +42,10 @@ We have to find the files which are owned by `best-group` group
 
 ## Question 2
 
-Now we have find the file which contains an ip address
+Now we have to find the file which contains an ip address
+
 `while read file; do grep -HP "(\d+\.){3}\d+" $file ; done < file_l.txt`
+
 ![](./images/2021-02-05_14-43.png)
 
 > Command Breakdown
@@ -53,6 +62,7 @@ Ans: oiMO
 We have to find the file with SHA1 hash of `9d54da7584015647ba052173b84d45e8007eba94`
 
 `while read file; do sha1sum $file | grep 9d5; done < file_l.txt`
+
 ![](./images/2021-02-05_15-04.png)
 
 > Command Breakdown
@@ -63,24 +73,33 @@ Ans: c4ZX
 ## Question 4
 
 We have to find the file that contains 230 lines. We will be making use of `wc` (word count) linux command
+
 `while read file; do wc -l $file; done < file_l.txt`
+
 ![](./images/2021-02-05_15-09.png)
+
 If we look at the output all of the files have 209 lines and the file `bny0` is not present.
 Ans: bny0
 
 ## Question 5
 
 Now we have to find the file which is owned by the user with UID 502. We can find the user having UID 502 by looking at /etc/passwd. And you will find out the name of the user is `newer-user`
+
 `while read file; do echo $file; stat -c '%U' $file | grep newer-user; done < file_l.txt`
+
 ![](./images/2021-02-05_15-17.png)
+
 We can see that the file `X1Uy` is owned by `new-user`
 Ans: X1Uy
 
 ## Question 6
 
 We have to find the file which is executable by everyone
+
 `while read file; do ls -ln $file; done < file_l.txt`
+
 ![](./images/2021-02-05_18-44.png)
+
 Again we use while loop to traverse through all the files and the execute `ls -ln` to list the permissions for each file and we see `/etc/8V2L` has executable permissions for all users
 Ans: 8V2L
 
