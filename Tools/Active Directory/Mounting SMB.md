@@ -1,0 +1,1 @@
+`sudo mount -t cifs  -o 'username=<username>,password=<password>' //$IP/<share> /mnt/blackfield`

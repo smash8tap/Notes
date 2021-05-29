@@ -1,0 +1,1 @@
+`bloodhound-python -c all -u bob -p 'Passw0rd1!'  -ns 192.168.3.203 -d htb.local -gc htb.local -v`
